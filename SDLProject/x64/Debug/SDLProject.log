@@ -1,0 +1,248 @@
+﻿  AsteroidsGame.cpp
+  AudioManager.cpp
+  BoundingBoxGC.cpp
+d:\repositories\ucm\asteroidsonline\sdlproject\boundingboxgc.cpp(41): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+d:\repositories\ucm\asteroidsonline\sdlproject\boundingboxgc.cpp(42): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+d:\repositories\ucm\asteroidsonline\sdlproject\boundingboxgc.cpp(43): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+d:\repositories\ucm\asteroidsonline\sdlproject\boundingboxgc.cpp(44): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+d:\repositories\ucm\asteroidsonline\sdlproject\boundingboxgc.cpp(57): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  BroadCastObjectInfoPC.cpp
+  Bullet.cpp
+  Bullets.cpp
+  ClientInfo.cpp
+  Collisions.cpp
+  Component.cpp
+  Container.cpp
+  DeactivateOnBorderExit.cpp
+  Fighter.cpp
+d:\repositories\ucm\asteroidsonline\sdlproject\fighter.cpp(36): warning C4065: switch statement contains 'default' but no 'case' labels
+  Font.cpp
+  FontsManager.cpp
+  GameObject.cpp
+  GameObjectPool.cpp
+  GraphicsComponent.cpp
+  GunIC.cpp
+  ImageGC.cpp
+  InputComponent.cpp
+  Generating Code...
+  Compiling...
+  InputHandler.cpp
+  main.cpp
+  NaturalMovePC.cpp
+  NetworkMessenger.cpp
+  Observer.cpp
+  PhysicsComponent.cpp
+  RandomNumberGenerator.cpp
+  ReduceSpeedPC.cpp
+  Resources.cpp
+  RotatingPC.cpp
+  RotationIC.cpp
+  SDLAudioManager.cpp
+  SDLFontsManager.cpp
+  SDLGame.cpp
+  SDLTexturesManager.cpp
+  Server.cpp
+  ServerConnection.cpp
+  ServiceLocator.cpp
+  ShowUpAtOppositeSidePC.cpp
+  SRandBasedGenerator.cpp
+d:\repositories\ucm\asteroidsonline\sdlproject\srandbasedgenerator.cpp(10): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Generating Code...
+  Compiling...
+  Texture.cpp
+  TexturesManager.cpp
+  ThrustIC.cpp
+  Vector2D.cpp
+  Generating Code...
+     Creating library D:\Repositories\UCM\AsteroidsOnline\bin\SDLProjectDebug.lib and object D:\Repositories\UCM\AsteroidsOnline\bin\SDLProjectDebug.exp
+AsteroidsGame.obj : error LNK2019: unresolved external symbol SDL_GetWindowFlags referenced in function "private: void __cdecl AsteroidsGame::handleInput(unsigned int)" (?handleInput@AsteroidsGame@@AEAAXI@Z)
+AsteroidsGame.obj : error LNK2019: unresolved external symbol SDL_SetWindowFullscreen referenced in function "private: void __cdecl AsteroidsGame::handleInput(unsigned int)" (?handleInput@AsteroidsGame@@AEAAXI@Z)
+AsteroidsGame.obj : error LNK2019: unresolved external symbol SDL_SetRenderDrawColor referenced in function "private: void __cdecl AsteroidsGame::render(unsigned int)" (?render@AsteroidsGame@@AEAAXI@Z)
+BoundingBoxGC.obj : error LNK2001: unresolved external symbol SDL_SetRenderDrawColor
+SDLGame.obj : error LNK2001: unresolved external symbol SDL_SetRenderDrawColor
+AsteroidsGame.obj : error LNK2019: unresolved external symbol SDL_RenderClear referenced in function "private: void __cdecl AsteroidsGame::render(unsigned int)" (?render@AsteroidsGame@@AEAAXI@Z)
+SDLGame.obj : error LNK2001: unresolved external symbol SDL_RenderClear
+AsteroidsGame.obj : error LNK2019: unresolved external symbol SDL_RenderPresent referenced in function "private: void __cdecl AsteroidsGame::render(unsigned int)" (?render@AsteroidsGame@@AEAAXI@Z)
+SDLGame.obj : error LNK2001: unresolved external symbol SDL_RenderPresent
+AsteroidsGame.obj : error LNK2019: unresolved external symbol SDL_GetTicks referenced in function "public: virtual void __cdecl AsteroidsGame::start(void)" (?start@AsteroidsGame@@UEAAXXZ)
+AsteroidsGame.obj : error LNK2019: unresolved external symbol SDL_Delay referenced in function "public: virtual void __cdecl AsteroidsGame::start(void)" (?start@AsteroidsGame@@UEAAXXZ)
+BoundingBoxGC.obj : error LNK2019: unresolved external symbol SDL_RenderDrawLine referenced in function "public: virtual void __cdecl BoundingBoxGC::render(class Container *,unsigned int)" (?render@BoundingBoxGC@@UEAAXPEAVContainer@@I@Z)
+BoundingBoxGC.obj : error LNK2019: unresolved external symbol SDL_RenderFillRect referenced in function "public: virtual void __cdecl BoundingBoxGC::render(class Container *,unsigned int)" (?render@BoundingBoxGC@@UEAAXPEAVContainer@@I@Z)
+Font.obj : error LNK2019: unresolved external symbol TTF_OpenFont referenced in function "public: bool __cdecl Font::load(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,int)" (?load@Font@@QEAA_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H@Z)
+Font.obj : error LNK2019: unresolved external symbol TTF_RenderText_Solid referenced in function "public: struct SDL_Surface * __cdecl Font::renderText(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,struct SDL_Color)const " (?renderText@Font@@QEBAPEAUSDL_Surface@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@USDL_Color@@@Z)
+Font.obj : error LNK2019: unresolved external symbol TTF_CloseFont referenced in function "public: void __cdecl Font::close(void)" (?close@Font@@QEAAXXZ)
+InputHandler.obj : error LNK2019: unresolved external symbol SDL_GetKeyboardState referenced in function "private: void __cdecl InputHandler::onKeyDown(void)" (?onKeyDown@InputHandler@@AEAAXXZ)
+InputHandler.obj : error LNK2019: unresolved external symbol SDL_GetScancodeFromKey referenced in function "public: bool __cdecl InputHandler::isKeyDown(int)const " (?isKeyDown@InputHandler@@QEBA_NH@Z)
+InputHandler.obj : error LNK2019: unresolved external symbol SDL_PollEvent referenced in function "public: void __cdecl InputHandler::update(void)" (?update@InputHandler@@QEAAXXZ)
+SDLAudioManager.obj : error LNK2019: unresolved external symbol SDL_RWFromFile referenced in function "public: virtual bool __cdecl SDLAudioManager::loadSound(int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?loadSound@SDLAudioManager@@UEAA_NHV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+SDLAudioManager.obj : error LNK2019: unresolved external symbol Mix_Init referenced in function "public: virtual bool __cdecl SDLAudioManager::init(void)" (?init@SDLAudioManager@@UEAA_NXZ)
+SDLAudioManager.obj : error LNK2019: unresolved external symbol Mix_Quit referenced in function "public: virtual __cdecl SDLAudioManager::~SDLAudioManager(void)" (??1SDLAudioManager@@UEAA@XZ)
+SDLAudioManager.obj : error LNK2019: unresolved external symbol Mix_OpenAudio referenced in function "public: virtual bool __cdecl SDLAudioManager::init(void)" (?init@SDLAudioManager@@UEAA_NXZ)
+SDLAudioManager.obj : error LNK2019: unresolved external symbol Mix_AllocateChannels referenced in function "public: virtual bool __cdecl SDLAudioManager::init(void)" (?init@SDLAudioManager@@UEAA_NXZ)
+SDLAudioManager.obj : error LNK2019: unresolved external symbol Mix_LoadWAV_RW referenced in function "public: virtual bool __cdecl SDLAudioManager::loadSound(int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?loadSound@SDLAudioManager@@UEAA_NHV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+SDLAudioManager.obj : error LNK2019: unresolved external symbol Mix_LoadMUS referenced in function "public: virtual bool __cdecl SDLAudioManager::loadMusic(int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?loadMusic@SDLAudioManager@@UEAA_NHV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+SDLAudioManager.obj : error LNK2019: unresolved external symbol Mix_FreeChunk referenced in function "public: virtual __cdecl SDLAudioManager::~SDLAudioManager(void)" (??1SDLAudioManager@@UEAA@XZ)
+SDLAudioManager.obj : error LNK2019: unresolved external symbol Mix_FreeMusic referenced in function "public: virtual __cdecl SDLAudioManager::~SDLAudioManager(void)" (??1SDLAudioManager@@UEAA@XZ)
+SDLAudioManager.obj : error LNK2019: unresolved external symbol Mix_PlayChannelTimed referenced in function "public: virtual int __cdecl SDLAudioManager::playChannel(int,int,int)" (?playChannel@SDLAudioManager@@UEAAHHHH@Z)
+SDLAudioManager.obj : error LNK2019: unresolved external symbol Mix_PlayMusic referenced in function "public: virtual void __cdecl SDLAudioManager::playMusic(int,int)" (?playMusic@SDLAudioManager@@UEAAXHH@Z)
+SDLAudioManager.obj : error LNK2019: unresolved external symbol Mix_Volume referenced in function "public: virtual int __cdecl SDLAudioManager::setChannelVolume(int,int)" (?setChannelVolume@SDLAudioManager@@UEAAHHH@Z)
+SDLAudioManager.obj : error LNK2019: unresolved external symbol Mix_VolumeMusic referenced in function "public: virtual int __cdecl SDLAudioManager::setMusicVolume(int)" (?setMusicVolume@SDLAudioManager@@UEAAHH@Z)
+SDLAudioManager.obj : error LNK2019: unresolved external symbol Mix_HaltChannel referenced in function "public: virtual void __cdecl SDLAudioManager::haltChannel(int)" (?haltChannel@SDLAudioManager@@UEAAXH@Z)
+SDLAudioManager.obj : error LNK2019: unresolved external symbol Mix_HaltMusic referenced in function "public: virtual void __cdecl SDLAudioManager::haltMusic(void)" (?haltMusic@SDLAudioManager@@UEAAXXZ)
+SDLAudioManager.obj : error LNK2019: unresolved external symbol Mix_Pause referenced in function "public: virtual void __cdecl SDLAudioManager::pauseChannel(int)" (?pauseChannel@SDLAudioManager@@UEAAXH@Z)
+SDLAudioManager.obj : error LNK2019: unresolved external symbol Mix_Resume referenced in function "public: virtual void __cdecl SDLAudioManager::resumeChanne(int)" (?resumeChanne@SDLAudioManager@@UEAAXH@Z)
+SDLAudioManager.obj : error LNK2019: unresolved external symbol Mix_PauseMusic referenced in function "public: virtual void __cdecl SDLAudioManager::pauseMusic(void)" (?pauseMusic@SDLAudioManager@@UEAAXXZ)
+SDLAudioManager.obj : error LNK2019: unresolved external symbol Mix_ResumeMusic referenced in function "public: virtual void __cdecl SDLAudioManager::resumeMusic(void)" (?resumeMusic@SDLAudioManager@@UEAAXXZ)
+SDLFontsManager.obj : error LNK2019: unresolved external symbol TTF_Init referenced in function "public: virtual bool __cdecl SDLFontsManager::init(void)" (?init@SDLFontsManager@@UEAA_NXZ)
+SDLFontsManager.obj : error LNK2019: unresolved external symbol TTF_Quit referenced in function "public: virtual __cdecl SDLFontsManager::~SDLFontsManager(void)" (??1SDLFontsManager@@UEAA@XZ)
+SDLGame.obj : error LNK2019: unresolved external symbol SDL_CreateWindow referenced in function "private: void __cdecl SDLGame::initSDL(void)" (?initSDL@SDLGame@@AEAAXXZ)
+SDLGame.obj : error LNK2019: unresolved external symbol SDL_DestroyWindow referenced in function "private: void __cdecl SDLGame::closeSDL(void)" (?closeSDL@SDLGame@@AEAAXXZ)
+SDLGame.obj : error LNK2019: unresolved external symbol SDL_ShowCursor referenced in function "private: void __cdecl SDLGame::initSDL(void)" (?initSDL@SDLGame@@AEAAXXZ)
+SDLGame.obj : error LNK2019: unresolved external symbol SDL_CreateRenderer referenced in function "private: void __cdecl SDLGame::initSDL(void)" (?initSDL@SDLGame@@AEAAXXZ)
+SDLGame.obj : error LNK2019: unresolved external symbol SDL_DestroyRenderer referenced in function "private: void __cdecl SDLGame::closeSDL(void)" (?closeSDL@SDLGame@@AEAAXXZ)
+SDLGame.obj : error LNK2019: unresolved external symbol SDL_Init referenced in function "private: void __cdecl SDLGame::initSDL(void)" (?initSDL@SDLGame@@AEAAXXZ)
+SDLGame.obj : error LNK2019: unresolved external symbol SDL_Quit referenced in function "private: void __cdecl SDLGame::closeSDL(void)" (?closeSDL@SDLGame@@AEAAXXZ)
+SDLTexturesManager.obj : error LNK2019: unresolved external symbol IMG_Init referenced in function "public: virtual bool __cdecl SDLTexturesManager::init(void)" (?init@SDLTexturesManager@@UEAA_NXZ)
+SDLTexturesManager.obj : error LNK2019: unresolved external symbol IMG_Quit referenced in function "public: virtual __cdecl SDLTexturesManager::~SDLTexturesManager(void)" (??1SDLTexturesManager@@UEAA@XZ)
+Server.obj : error LNK2019: unresolved external symbol SDL_CreateMutex referenced in function "public: __cdecl Server::Server(void)" (??0Server@@QEAA@XZ)
+Server.obj : error LNK2019: unresolved external symbol SDL_LockMutex referenced in function "public: void __cdecl Server::start(int)" (?start@Server@@QEAAXH@Z)
+Server.obj : error LNK2019: unresolved external symbol SDL_UnlockMutex referenced in function "public: void __cdecl Server::start(int)" (?start@Server@@QEAAXH@Z)
+Server.obj : error LNK2019: unresolved external symbol SDL_DestroyMutex referenced in function "public: virtual __cdecl Server::~Server(void)" (??1Server@@UEAA@XZ)
+Server.obj : error LNK2019: unresolved external symbol SDL_CreateCond referenced in function "public: __cdecl Server::Server(void)" (??0Server@@QEAA@XZ)
+Server.obj : error LNK2019: unresolved external symbol SDL_DestroyCond referenced in function "public: virtual __cdecl Server::~Server(void)" (??1Server@@UEAA@XZ)
+Server.obj : error LNK2019: unresolved external symbol SDL_CondSignal referenced in function "public: void __cdecl Server::start(int)" (?start@Server@@QEAAXH@Z)
+Server.obj : error LNK2019: unresolved external symbol SDL_CondWait referenced in function "public: void __cdecl Server::stop(void)" (?stop@Server@@QEAAXXZ)
+Server.obj : error LNK2019: unresolved external symbol SDLNet_ResolveHost referenced in function "public: void __cdecl Server::start(int)" (?start@Server@@QEAAXH@Z)
+ServerConnection.obj : error LNK2001: unresolved external symbol SDLNet_ResolveHost
+Server.obj : error LNK2019: unresolved external symbol SDLNet_TCP_Open referenced in function "public: void __cdecl Server::start(int)" (?start@Server@@QEAAXH@Z)
+ServerConnection.obj : error LNK2001: unresolved external symbol SDLNet_TCP_Open
+Server.obj : error LNK2019: unresolved external symbol SDLNet_TCP_Accept referenced in function "public: void __cdecl Server::start(int)" (?start@Server@@QEAAXH@Z)
+Server.obj : error LNK2019: unresolved external symbol SDLNet_TCP_Close referenced in function "public: void __cdecl Server::start(int)" (?start@Server@@QEAAXH@Z)
+ServerConnection.obj : error LNK2001: unresolved external symbol SDLNet_TCP_Close
+Server.obj : error LNK2019: unresolved external symbol SDLNet_AllocSocketSet referenced in function "public: void __cdecl Server::start(int)" (?start@Server@@QEAAXH@Z)
+ServerConnection.obj : error LNK2001: unresolved external symbol SDLNet_AllocSocketSet
+Server.obj : error LNK2019: unresolved external symbol SDLNet_AddSocket referenced in function SDLNet_TCP_AddSocket
+ServerConnection.obj : error LNK2001: unresolved external symbol SDLNet_AddSocket
+Server.obj : error LNK2019: unresolved external symbol SDLNet_DelSocket referenced in function SDLNet_TCP_DelSocket
+Server.obj : error LNK2019: unresolved external symbol SDLNet_CheckSockets referenced in function "public: void __cdecl Server::start(int)" (?start@Server@@QEAAXH@Z)
+ServerConnection.obj : error LNK2001: unresolved external symbol SDLNet_CheckSockets
+Server.obj : error LNK2019: unresolved external symbol SDLNet_FreeSocketSet referenced in function "public: virtual __cdecl Server::~Server(void)" (??1Server@@UEAA@XZ)
+ServerConnection.obj : error LNK2001: unresolved external symbol SDLNet_FreeSocketSet
+Server.obj : error LNK2019: unresolved external symbol SDLNet_GetError referenced in function "private: void __cdecl Server::error(void)" (?error@Server@@AEAAXXZ)
+ServerConnection.obj : error LNK2019: unresolved external symbol SDLNet_TCP_Send referenced in function "public: bool __cdecl ServerConnection::sendMessage(struct msg::Message const *)" (?sendMessage@ServerConnection@@QEAA_NPEBUMessage@msg@@@Z)
+ServerConnection.obj : error LNK2019: unresolved external symbol SDLNet_TCP_Recv referenced in function "public: struct msg::Message * __cdecl ServerConnection::recvMessage(void)" (?recvMessage@ServerConnection@@QEAAPEAUMessage@msg@@XZ)
+Texture.obj : error LNK2019: unresolved external symbol SDL_FreeSurface referenced in function "public: bool __cdecl Texture::loadFromImg(struct SDL_Renderer *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?loadFromImg@Texture@@QEAA_NPEAUSDL_Renderer@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+Texture.obj : error LNK2019: unresolved external symbol SDL_CreateTextureFromSurface referenced in function "public: bool __cdecl Texture::loadFromImg(struct SDL_Renderer *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?loadFromImg@Texture@@QEAA_NPEAUSDL_Renderer@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+Texture.obj : error LNK2019: unresolved external symbol SDL_RenderCopy referenced in function "public: void __cdecl Texture::render(struct SDL_Renderer *,struct SDL_Rect const &,struct SDL_Rect *)const " (?render@Texture@@QEBAXPEAUSDL_Renderer@@AEBUSDL_Rect@@PEAU3@@Z)
+Texture.obj : error LNK2019: unresolved external symbol SDL_RenderCopyEx referenced in function "public: void __cdecl Texture::render(struct SDL_Renderer *,struct SDL_Rect const &,double,struct SDL_Rect *)const " (?render@Texture@@QEBAXPEAUSDL_Renderer@@AEBUSDL_Rect@@NPEAU3@@Z)
+Texture.obj : error LNK2019: unresolved external symbol SDL_DestroyTexture referenced in function "public: void __cdecl Texture::close(void)" (?close@Texture@@QEAAXXZ)
+Texture.obj : error LNK2019: unresolved external symbol IMG_Load referenced in function "public: bool __cdecl Texture::loadFromImg(struct SDL_Renderer *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?loadFromImg@Texture@@QEAA_NPEAUSDL_Renderer@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+D:\Repositories\UCM\AsteroidsOnline\SDL2-2.0.7\lib\x86\SDL2.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+D:\Repositories\UCM\AsteroidsOnline\SDL2-2.0.7\lib\x86\SDL2main.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+D:\Repositories\UCM\AsteroidsOnline\SDL2_image-2.0.1\lib\x86\SDL2_image.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+D:\Repositories\UCM\AsteroidsOnline\SDL2_ttf-2.0.14\lib\x86\SDL2_ttf.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+D:\Repositories\UCM\AsteroidsOnline\SDL2_mixer-2.0.2\lib\x86\SDL2_mixer.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+D:\Repositories\UCM\AsteroidsOnline\SDL2_net-2.0.1\lib\x86\SDL2_net.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+D:\Repositories\UCM\AsteroidsOnline\bin\SDLProjectDebug.exe : fatal error LNK1120: 72 unresolved externals
+
+Project Performance Summary:
+    31021 ms  D:\Repositories\UCM\AsteroidsOnline\SDLProject\SDLProject.vcxproj   1 calls
+              31021 ms  Build                                      1 calls
+
+Target Performance Summary:
+        0 ms  BuildGenerateSources                       1 calls
+        0 ms  AfterMidl                                  1 calls
+        0 ms  AfterBuildGenerateSources                  1 calls
+        0 ms  AfterBuildGenerateSourcesEvent             1 calls
+        0 ms  _BuildGenerateSourcesAction                1 calls
+        0 ms  BuildCompileTraverse                       1 calls
+        0 ms  BeforeClCompile                            1 calls
+        0 ms  ComputeCLInputPDBName                      1 calls
+        0 ms  PrepareResourceNames                       1 calls
+        0 ms  SelectCustomBuild                          1 calls
+        0 ms  SelectClCompile                            1 calls
+        0 ms  CreateCustomManifestResourceNames          1 calls
+        0 ms  AfterClCompile                             1 calls
+        0 ms  _ClCompile                                 1 calls
+        0 ms  BeforeResourceCompile                      1 calls
+        0 ms  AfterResourceCompile                       1 calls
+        0 ms  _ResourceCompile                           1 calls
+        0 ms  AfterBuildCompileEvent                     1 calls
+        0 ms  _BuildCompileAction                        1 calls
+        0 ms  BuildCompile                               1 calls
+        0 ms  BuildLinkTraverse                          1 calls
+        0 ms  ComputeLegacyManifestEmbedding             1 calls
+        0 ms  BeforeLink                                 1 calls
+        0 ms  ComputeRCOutputs                           1 calls
+        0 ms  ComputeRCGeneratedLinkInputs               1 calls
+        0 ms  ComputeManifestGeneratedLinkerInputs       1 calls
+        0 ms  ComputeCustomBuildOutput                   1 calls
+        0 ms  ComputeLinkInputsFromProject               1 calls
+        0 ms  ComputeMIDLGeneratedCompileInputs          1 calls
+        0 ms  _Xsd                                       1 calls
+        0 ms  _Midl                                      1 calls
+        0 ms  ExpandSDKReferences                        1 calls
+        0 ms  _SplitProjectReferencesByFileExistence     1 calls
+        0 ms  PrepareProjectReferences                   1 calls
+        0 ms  PreLinkEvent                               1 calls
+        0 ms  GetReferenceAssemblyPaths                  1 calls
+        0 ms  GetResolvedWinMD                           1 calls
+        0 ms  SetCABuildNativeEnvironmentVariables       1 calls
+        0 ms  ResolveSDKReferences                       1 calls
+        0 ms  _PrepareForBuild                           1 calls
+        0 ms  ResolveAssemblyReferences                  1 calls
+        0 ms  BeforeResolveReferences                    1 calls
+        0 ms  _SelectedFiles                             1 calls
+        0 ms  ResolveReferences                          1 calls
+        0 ms  PreBuildEvent                              1 calls
+        0 ms  BeforeBuildGenerateSources                 1 calls
+        0 ms  BuildGenerateSourcesTraverse               1 calls
+        0 ms  AfterResolveReferences                     1 calls
+        0 ms  MakeDirsForResourceCompile                 1 calls
+        0 ms  SetTelemetryEnvironmentVariables           1 calls
+        0 ms  ComputeCLGeneratedLinkInputs               1 calls
+        0 ms  MakeDirsForCl                              1 calls
+        0 ms  _HandlePackageFileConflicts                1 calls
+        0 ms  ComputeManifestInputsTargets               1 calls
+        0 ms  PlatformPrepareForBuild                    1 calls
+        0 ms  SetBuildDefaultEnvironmentVariables        1 calls
+        0 ms  GetFrameworkPaths                          1 calls
+        0 ms  AssignTargetPaths                          1 calls
+        1 ms  DoLinkOutputFilesMatch                     1 calls
+        1 ms  AssignProjectConfiguration                 1 calls
+        1 ms  _GetProjectReferenceTargetFrameworkProperties   1 calls
+        1 ms  ComputeLinkSwitches                        1 calls
+        1 ms  _PrepareForReferenceResolution             1 calls
+        1 ms  _CheckWindowsSDKInstalled                  1 calls
+        1 ms  MakeDirsForMidl                            1 calls
+        1 ms  ComputeReferenceCLInput                    1 calls
+        1 ms  CopyFileToFolders                          1 calls
+        1 ms  FixupCLCompileOptions                      1 calls
+        1 ms  MakeDirsForLink                            1 calls
+        1 ms  SplitResourcesByCulture                    1 calls
+        2 ms  _CheckForInvalidConfigurationAndPlatform   1 calls
+        2 ms  InitializeBuildStatus                      1 calls
+        2 ms  ComputeCLOutputs                           1 calls
+        4 ms  ResolveProjectReferences                   1 calls
+        4 ms  PrepareForBuild                            1 calls
+        7 ms  WarnCompileDuplicatedFilename              1 calls
+     1543 ms  Link                                       1 calls
+    29440 ms  ClCompile                                  1 calls
+
+Task Performance Summary:
+        0 ms  ReadLinesFromFile                          1 calls
+        0 ms  Delete                                     1 calls
+        0 ms  AssignCulture                              1 calls
+        0 ms  ResolvePackageFileConflicts                1 calls
+        0 ms  GetOutOfDateItems                          1 calls
+        0 ms  AssignTargetPath                           4 calls
+        1 ms  AssignProjectConfiguration                 1 calls
+        1 ms  MSBuild                                    1 calls
+        1 ms  Message                                    2 calls
+        1 ms  SetEnv                                     8 calls
+        1 ms  Touch                                      1 calls
+        1 ms  WriteLinesToFile                           1 calls
+        2 ms  MakeDir                                    7 calls
+     1539 ms  Link                                       1 calls
+    29434 ms  CL                                         1 calls

@@ -1,0 +1,14 @@
+.vscode/
+.vs/
+.idea/
+*.exe
+*.ilk
+*.pdb
+*.tlog
+*.obj
+*.idb
+
+build/
+deps/
+bin/
+cmake-build-debug/
