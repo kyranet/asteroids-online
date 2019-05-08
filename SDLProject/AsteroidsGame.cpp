@@ -24,6 +24,7 @@ void AsteroidsGame::initGame() {
 
   actors_.push_back(&fighter0_);
   actors_.push_back(&bulletsShooter_);
+  actors_.push_back(&gameManager_);
 }
 
 void AsteroidsGame::closeGame() {}
